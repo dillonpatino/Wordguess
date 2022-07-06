@@ -16,3 +16,11 @@ function timer_tick() {
         alert("You lose!");
     }
 }
+
+// function to start the game
+function start_game() {
+    // reset the game
+    reset_game();
+    // start the timer
+    timer_start();
+}
